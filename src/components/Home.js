@@ -19,7 +19,6 @@ function Home() {
         A story of resilience, rich culture, and continuous development in South Asia.
       </p>
 
-      {/* Bangladesh Image */}
       <img src="https://minorityrights.org/app/uploads/2024/03/bangladesh.png.png" alt="Bangladesh Scenery" className={styles.imageBox} />
 
       <p className={styles.caption}>

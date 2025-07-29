@@ -22,8 +22,8 @@ function Profile() {
 
         <h3>Posts</h3>
         <ul>
-          <li>Post 1 - The Journey of Bangladesh: Resilience and Progress</li>
-          <li>Post 2 - Celebrating the Spirit of the Bangladeshi People</li>
+          <li>The Journey of Bangladesh: Resilience and Progress</li>
+          <li>101 Reasons why slimes should be the national creature of Bangladesh</li>
         </ul>
       </div>
     </div>
