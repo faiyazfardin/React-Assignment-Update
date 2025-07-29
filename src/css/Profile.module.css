@@ -1,0 +1,80 @@
+.profileContainer {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 3rem 2.5rem;
+  background: linear-gradient(135deg, #004d40, #00796b);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 121, 107, 0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0f2f1;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  border: 3px solid #004d40;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #004d40;
+  padding-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px; 
+  background: linear-gradient(135deg, #26a69a, #004d40);
+  box-shadow: 0 4px 15px rgba(0, 150, 136, 0.8);
+  flex-shrink: 0;
+  border: 2px solid #004d40;
+}
+
+.profileHeader h2 {
+  font-size: 2.8rem;
+  margin: 0;
+  color: #b2dfdb;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.profileHeader p {
+  font-size: 1.1rem;
+  color: #80cbc4;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+
+.profileBody {
+  text-transform: none;
+  font-weight: 400;
+  color: #cfd8dc;
+}
+
+.profileBody h3 {
+  margin-top: 2rem;
+  color: #a7ffeb;
+  font-size: 1.7rem;
+  letter-spacing: 0.1em;
+  border-left: 6px solid #004d40;
+  padding-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.profileBody p,
+.profileBody ul {
+  color: #b2dfdb;
+  font-size: 1.05rem;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+.profileBody ul {
+  list-style-type: square;
+  padding-left: 1.3rem;
+}
+
+.profileBody ul li {
+  margin-bottom: 0.6rem;
+}
